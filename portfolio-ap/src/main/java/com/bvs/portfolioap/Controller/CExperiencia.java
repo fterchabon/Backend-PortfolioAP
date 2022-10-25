@@ -21,8 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/explab")
-@CrossOrigin(origins = "https://bvscheidt.dev")
-/* @CrossOrigin(origins = "http://localhost:4200") */
+@CrossOrigin(origins = {"https://bvscheidt.dev", "http://localhost:4200"})
 public class CExperiencia {
 
     @Autowired
